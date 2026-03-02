@@ -240,7 +240,8 @@ const VERT_SRC = /* glsl */`
   varying   vec2 vUV;
 
   void main() {
-    vUV         = aPosition * 0.5 + 0.5;
+    vec2 uv = aPosition * 0.5 + 0.5;
+    vUV = vec2(uv.x, 1.0 - uv.y);  // <-- FIX: flip Y axis
     gl_Position = vec4(aPosition, 0.0, 1.0);
   }
 `;
