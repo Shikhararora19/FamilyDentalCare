@@ -17,6 +17,7 @@ export function render() {
           From preventive check-ups to complex smile transformations — our comprehensive range of
           services means your whole family can get expert care in one trusted place.
         </p>
+        <br/>
       </div>
     </section>
 

@@ -17,6 +17,7 @@ export function render() {
           For nearly two decades, Family Dental Care has been the trusted dental home for thousands of
           families across the region. We believe great oral health is the foundation of a great life.
         </p>
+        <br/>
       </div>
     </section>
 

@@ -17,6 +17,7 @@ export function render() {
           Book an appointment, ask a question, or share feedback.
           Our friendly team typically responds within 2 business hours.
         </p>
+        <br/>
       </div>
     </section>
 
